@@ -1,0 +1,30 @@
+{
+  "name": "The Changed Pebble",
+  "image": "https://api.imd.fun/artifacts/268e0ba6984df6d2ccc55b5deed13e636f0b815b475b2d3facf1f50ca2452ab0",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Crystal"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 4"
+    },
+    {
+      "trait_type": "Number",
+      "value": 31
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Catalog Delta"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Two linked catalogs reveal one changed release."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Finite offline dependency resolution"
+    }
+  ]
+}

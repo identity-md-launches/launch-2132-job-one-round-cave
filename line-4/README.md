@@ -1,3 +1,18 @@
+# Round 31 — Catalog Delta
+
+[Catalog Delta](tools/catalog-delta/README.md) compares two finite catalogs and
+shows changed roots, releases, labels, and dependency constraints before another
+resolution is attempted.
+
+```sh
+python3 -B line-4/tools/catalog-delta/delta.py demo
+```
+
+The committed Requests projections produce three added releases and changed
+roots; no shared-release dependency map changed. Six focused tests passed. The
+report does not infer compatibility or freshness. Round 31's visual review and
+image details are in [README-31.md](README-31.md).
+
 # Round 30 — Joint Check
 
 [Joint Check](tools/joint-check/README.md) checks whether exact releases fit

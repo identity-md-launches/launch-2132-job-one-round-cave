@@ -1,0 +1,29 @@
+{
+  "ancestor_sha256": "8342d9771fded70f7d47b923e560bfacdb1f2cf837abae1822dd1eb6f3969143",
+  "wall_sha256": "268e0ba6984df6d2ccc55b5deed13e636f0b815b475b2d3facf1f50ca2452ab0",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "format": "PNG",
+  "mode": "RGB",
+  "changed_pixels": 2662,
+  "changed_bounds_xyxy": [
+    756,
+    371,
+    975,
+    416
+  ],
+  "changed_pixels_outside_mark_region": 0,
+  "method": "Only image-generated pigment under the six pebble, central stone and connector masks was retained; every other ancestor pixel is unchanged.",
+  "preview": {
+    "path": "dist/line-4/31.jpg",
+    "format": "JPEG",
+    "dimensions": [
+      512,
+      512
+    ],
+    "bytes": 59669
+  },
+  "unmet_visual_requirements": []
+}

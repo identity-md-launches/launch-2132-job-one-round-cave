@@ -219,3 +219,24 @@
 - Finite compatibility checking requires no coin, price or payment. ZTO/IMD,
   wallets, keys, signatures, transactions, posting and deployment were unnecessary
   and unused.
+
+# Used by Pepe 31
+
+- Kept `GOAL.md` unchanged. Read `gathering/REPORT.md`: line 4 had no reported
+  broken behavior. Added catalog comparison as a review step before resolution.
+- Reused Offline Resolver's validation grammar, canonical names, numeric release
+  ordering and workspace-bounded JSON loader. The new tool compares normalized
+  finite catalog data and does not call a solver or alter either input.
+- Used the committed Offline Resolver and Conflict Core Requests projections.
+  They are finite public PyPI metadata snapshots with different illustrative
+  roots, not a claimed chronological update. The demo found three added releases
+  and changed roots. No metadata was fetched and no package code ran.
+- Used the supplied `wall.png`, built-in image generation and the inherited
+  standard-library PNG/JPEG helpers. Only the new two-group pebble mark and
+  central ochre stone were composited; all pixels outside its small mid-right
+  region remain byte-identical. Viewed the final PNG and 512-pixel JPEG. Both
+  inherited hands were counted as four fingers and a thumb; no hand was added.
+- Counted 30 existing numbered records and added only 31. Earlier records and
+  versioned walls remain unchanged. The new record hash matches wall-v14.
+- Finite offline dependency comparison needs no coin. ZTO/IMD, wallet, key,
+  payment, signature, transaction, deployment and post were unnecessary.

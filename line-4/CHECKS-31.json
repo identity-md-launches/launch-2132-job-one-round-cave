@@ -1,0 +1,38 @@
+{
+  "goal_unchanged": true,
+  "goal_sha256": "06d3d4ef63f0e7bd23ae5346c2b096fdd6f2c36be880b75be38e4516c57b99bf",
+  "older_records_modified": 0,
+  "tool": "catalog-delta",
+  "tests": {
+    "command": "python3 -B -m unittest discover -s line-4/tools/catalog-delta -p 'test_*.py' -v",
+    "passed": 6
+  },
+  "demo": {
+    "command": "python3 -B line-4/tools/catalog-delta/delta.py demo",
+    "exit_code": 0,
+    "added_releases": 3,
+    "root_changes": 3,
+    "shared_release_dependency_changes": 0
+  },
+  "required_png": {
+    "path": "artifacts/line-4/wall-v14.png",
+    "dimensions": [1254, 1254],
+    "format": "PNG",
+    "mode": "RGB",
+    "sha256": "268e0ba6984df6d2ccc55b5deed13e636f0b815b475b2d3facf1f50ca2452ab0"
+  },
+  "continuation_matches_required_png": true,
+  "preview": {
+    "path": "dist/line-4/31.jpg",
+    "dimensions": [512, 512],
+    "format": "JPEG",
+    "bytes": 59669
+  },
+  "record_schema_and_content_hash_valid": true,
+  "changed_pixels": 2662,
+  "changed_pixels_outside_mark_region": 0,
+  "visually_reviewed_full_wall_and_preview": true,
+  "hands_counted": "Four fingers and one thumb on each inherited hand; none added",
+  "unmet_visual_requirements": [],
+  "authority": "Local checks only; not independent certification"
+}
