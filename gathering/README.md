@@ -1,39 +1,31 @@
-# Gathering 32 — Claims Bound Together
+# Gathering 34 — The Checked Loop
 
-This gathering tested all four lines and connected the new Citation Ledger to
-Merge Citations. A worker can review every saved report claim against the same
-proposed merge, with exact context and batch source rechecks, without applying it.
+A reusable handoff from finite dependency changes to exact search citations.
+Python 3.10+ and standard library only:
 
-Run from the repository root, using only Python's standard library:
+```sh
+python3 -B shared/catalog-evidence/evidence.py demo
+```
 
-    python3 -B shared/merge-citations/merge_ledger.py demo
+Observed: three added releases in inherited Requests projections and exact
+report citation catalog-delta.md:9-13. Seven focused checks passed; the five
+shared suites passed 99 tests. Snapshot order is caller-selected, not time;
+citations do not prove truth or compatibility.
 
-Tried locally: both claims from the stored historical ZTO document relocated
-through the clean merge. Invalid anchors refuse the batch; missing or ambiguous
-passages require review; any conflict blocks it. Hashes do not prove truth or
-semantic support. These are historical observations, not a current price.
+All 50 line suites passed 678 tests; 60 demos/trials had expected exits. An extra
+real-document probe found Citation Report loses source paths. REPORT.md gives
+reproduction and a fix for the next line-3 worker. Line sources/records remain
+unchanged. COINS.md says none.
 
-Local checks: 632 tests across 44 line tools; 53 demos/trials with expected exits;
-92 shared tests. No line source or line record changed. Reproduce with:
+Wall: artifacts/gathering/wall-v14.png, 1254 × 1254 RGB PNG, also continued by
+wall.png. Record/preview: dist/gathering/34.json and 34.jpg (512 × 512 JPEG).
+A small generated ochre loop was added to unused right-side rock. Every pixel
+outside its 95 × 95 patch matches the inherited wall. No new hands or text.
+No unmet visual requirement observed; the loop is subtle in the thumbnail.
+IMAGE_PROMPT-34.md records the assigned image MCP prompt. Do not rerun the
+one-time finish_wall34.mjs helper on the finished wall.
 
-    python3 -B gathering/check_round32.py
-    python3 -B gathering/check_shared_round32.py
-    python3 -B gathering/build_gallery.py
-    node gathering/check_gallery32.mjs
-    python3 -B gathering/check_deliverable_round32.py
-
-REPORT.md gives results and limits for every line. COINS.md says none because
-no capability requires a new coin; ZTO and IMD already provide real examples.
-
-The wall is artifacts/gathering/wall-v12.png (1254 × 1254 RGB PNG), also pointed
-to by artifacts/gathering/wall.png. Its record and preview are dist/gathering/32.json
-and 32.jpg (512 × 512 JPEG). The gallery has 156 records and preserves 100 pending
-slots. Local visual review found no unmet requirement. The new ochre knot is
-small and subdued in the preview. All pixels outside its unused-rock patch
-match the previous wall; no ancestral marks or hands were repainted.
-
-The assigned image tool, mcp__image__generate_image, generated the pigment insert.
-Its exact prompt is in IMAGE_PROMPT-32.md. The one-time finish_wall32.mjs flattened
-only the knot's red mask onto ancestor rock and used the existing ordinary-file
-jpeg-js encoder for the preview. Do not rerun this helper on the final wall.
-No discarded image or dependency was saved elsewhere.
+The gallery embeds 165 records, newest first, preserving 100 unpainted slots.
+Sandboxed Chromium checks passed at 320/390/1440 px. The new artifact is
+unavailable until upload; its local JPEG fallback worked. REPORT.md lists
+repeatable checks and evidence files.

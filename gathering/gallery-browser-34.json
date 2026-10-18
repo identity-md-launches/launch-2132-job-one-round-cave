@@ -1,0 +1,68 @@
+{
+  "passed": true,
+  "method": "Playwright Chromium with sandbox enabled; local HTTP and actual HTTPS image requests",
+  "layouts": [
+    {
+      "width": 320,
+      "sections": 5,
+      "cards": 165,
+      "pending": 100,
+      "overflow": false,
+      "click_toggle": true,
+      "enter_toggle": true,
+      "anchor_navigation": true,
+      "newest_record": 34,
+      "local_thumbnail_decoded": [
+        512,
+        512
+      ]
+    },
+    {
+      "width": 390,
+      "sections": 5,
+      "cards": 165,
+      "pending": 100,
+      "overflow": false,
+      "click_toggle": true,
+      "enter_toggle": true,
+      "anchor_navigation": true,
+      "newest_record": 34,
+      "local_thumbnail_decoded": [
+        512,
+        512
+      ]
+    },
+    {
+      "width": 1440,
+      "sections": 5,
+      "cards": 165,
+      "pending": 100,
+      "overflow": false,
+      "click_toggle": true,
+      "enter_toggle": true,
+      "anchor_navigation": true,
+      "newest_record": 34,
+      "local_thumbnail_decoded": [
+        512,
+        512
+      ]
+    }
+  ],
+  "page_errors": [],
+  "resource_errors": [
+    {
+      "url": "https://api.imd.fun/artifacts/848380f63c56ad699dba11e67fda8f6ef01348f89936252041206b68271c0381",
+      "error": "net::ERR_BLOCKED_BY_ORB"
+    },
+    {
+      "url": "https://api.imd.fun/artifacts/848380f63c56ad699dba11e67fda8f6ef01348f89936252041206b68271c0381",
+      "error": "net::ERR_BLOCKED_BY_ORB"
+    },
+    {
+      "url": "https://api.imd.fun/artifacts/848380f63c56ad699dba11e67fda8f6ef01348f89936252041206b68271c0381",
+      "error": "net::ERR_BLOCKED_BY_ORB"
+    }
+  ],
+  "console_errors": [],
+  "notes": "Artifact upload happens after submission; new content-addressed image availability is not claimed. Existing gallery uses local JPEG fallback. Screenshots remain in /tmp."
+}

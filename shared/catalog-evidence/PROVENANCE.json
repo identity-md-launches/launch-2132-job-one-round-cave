@@ -1,0 +1,44 @@
+[
+  {
+    "source": "line-4/tools/offline-resolver/resolve.py",
+    "copy": "resolve.py",
+    "source_sha256": "204176243974c16f7ba81350d2eefc782ba5a8e2537b8aeee64066af7b11796f",
+    "copy_sha256": "204176243974c16f7ba81350d2eefc782ba5a8e2537b8aeee64066af7b11796f",
+    "adaptation": "byte-identical"
+  },
+  {
+    "source": "line-4/tools/catalog-delta/delta.py",
+    "copy": "delta.py",
+    "source_sha256": "98e8681aa811a4c2fbb440af7f340fa4fdc9251dfa404ad7a98d5b1523e62254",
+    "copy_sha256": "f717155687bb2cb32eea992232e9305a519218b09c121d7c7f718e1df2e45f68",
+    "adaptation": "Only sibling engine/example paths and boundary error label relocated."
+  },
+  {
+    "source": "line-3/tools/evidence-search/search.py",
+    "copy": "search.py",
+    "source_sha256": "33fd351b9012fd247581164cdbf680ffec21ae812b0200dbdd2df8f9f4385de8",
+    "copy_sha256": "33fd351b9012fd247581164cdbf680ffec21ae812b0200dbdd2df8f9f4385de8",
+    "adaptation": "byte-identical"
+  },
+  {
+    "source": "line-4/tools/offline-resolver/examples/requests.json",
+    "copy": "examples/before.json",
+    "source_sha256": "bf8ab6d924509a7ad0aeb45bf934bb6fb30eea159f895a6fa7b3d4dd3834a274",
+    "copy_sha256": "bf8ab6d924509a7ad0aeb45bf934bb6fb30eea159f895a6fa7b3d4dd3834a274",
+    "adaptation": "byte-identical"
+  },
+  {
+    "source": "line-4/tools/conflict-core/examples/requests-conflict.json",
+    "copy": "examples/after.json",
+    "source_sha256": "d335589e45e709226868373c26e9386251903b2ac86d6757dd18683abaab823c",
+    "copy_sha256": "d335589e45e709226868373c26e9386251903b2ac86d6757dd18683abaab823c",
+    "adaptation": "byte-identical"
+  },
+  {
+    "source": "line-4/tools/offline-resolver/examples/sources.json",
+    "copy": "examples/sources.json",
+    "source_sha256": "00b932d1de817c46637a833614b3cf3d22849cc1021ce19240df5344fb0fe374",
+    "copy_sha256": "00b932d1de817c46637a833614b3cf3d22849cc1021ce19240df5344fb0fe374",
+    "adaptation": "byte-identical"
+  }
+]

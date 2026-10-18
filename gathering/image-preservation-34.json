@@ -1,0 +1,28 @@
+{
+  "ancestor_sha256": "4660af2247e6da2479869268e0ee405f870858c282acddb5812af432ffe9c8ab",
+  "wall_sha256": "848380f63c56ad699dba11e67fda8f6ef01348f89936252041206b68271c0381",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "format": "PNG",
+  "mode": "RGB",
+  "new_mark_rectangle": [
+    1070,
+    430,
+    95,
+    95
+  ],
+  "changed_pixels": 3229,
+  "changed_pixels_outside_rectangle": 0,
+  "method": "Replicate flux-kontext-pro generated a loop insert. Only its red pigment mask was flattened to ochre and blended onto unused rock; background and raised rendering discarded. All other ancestor pixels copied unchanged.",
+  "preview": {
+    "dimensions": [
+      512,
+      512
+    ],
+    "format": "JPEG",
+    "bytes": 81306
+  },
+  "unmet_visual_requirements": []
+}

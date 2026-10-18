@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "method": "Copied complete shared/catalog-evidence folder to a disposable standalone workspace with no line directories; ran tool/evidence.py demo from that workspace.",
+  "exit": 0,
+  "citation": "catalog-delta.md:9-13"
+}

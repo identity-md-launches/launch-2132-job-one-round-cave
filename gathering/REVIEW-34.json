@@ -1,0 +1,98 @@
+{
+  "number": 34,
+  "line_files_and_records_unchanged": true,
+  "line_tests_passed": 678,
+  "line_demos_passed": 60,
+  "shared_tests_passed": 99,
+  "gallery_records": 165,
+  "preserved_placeholders": 100,
+  "wall": {
+    "path": "artifacts/gathering/wall-v14.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "format": "PNG",
+    "mode": "RGB",
+    "sha256": "848380f63c56ad699dba11e67fda8f6ef01348f89936252041206b68271c0381"
+  },
+  "preview": {
+    "path": "dist/gathering/34.jpg",
+    "dimensions": [
+      512,
+      512
+    ],
+    "format": "JPEG",
+    "bytes": 81306
+  },
+  "changed_pixels": 3229,
+  "changed_pixels_outside_rectangle": 0,
+  "visual_review": {
+    "method": "Local inspection of finished wall and JPEG preview.",
+    "pepe": "Wide mouth and heavy-lidded eyes preserved.",
+    "hands": "No new hands or handprints. Central Pepe hands concealed and unchanged; no digit-bearing mark added.",
+    "text_or_prohibited_symbols_observed": false,
+    "limitation": "The ochre loop is subdued at thumbnail scale; only flattened pigment from the assigned image tool was transferred to unused rock."
+  },
+  "unmet_visual_requirements": [],
+  "coins": "none",
+  "known_tool_findings": [
+    {
+      "severity": "medium",
+      "summary": "Citation Report emits empty source for valid citations.",
+      "expected_source": "zto.md",
+      "observed_source": "",
+      "cause": "Reanchor results have no top-level path; result.get(\"path\", \"\") loses the ledger anchor path.",
+      "suggested_fix": "Join each checked result to the validated ledger entry by id and take anchor.path; apply in both report() and demo().",
+      "boundary": "Original line sources are protected and remain unchanged."
+    }
+  ],
+  "browser_checks": [
+    {
+      "width": 320,
+      "sections": 5,
+      "cards": 165,
+      "pending": 100,
+      "overflow": false,
+      "click_toggle": true,
+      "enter_toggle": true,
+      "anchor_navigation": true,
+      "newest_record": 34,
+      "local_thumbnail_decoded": [
+        512,
+        512
+      ]
+    },
+    {
+      "width": 390,
+      "sections": 5,
+      "cards": 165,
+      "pending": 100,
+      "overflow": false,
+      "click_toggle": true,
+      "enter_toggle": true,
+      "anchor_navigation": true,
+      "newest_record": 34,
+      "local_thumbnail_decoded": [
+        512,
+        512
+      ]
+    },
+    {
+      "width": 1440,
+      "sections": 5,
+      "cards": 165,
+      "pending": 100,
+      "overflow": false,
+      "click_toggle": true,
+      "enter_toggle": true,
+      "anchor_navigation": true,
+      "newest_record": 34,
+      "local_thumbnail_decoded": [
+        512,
+        512
+      ]
+    }
+  ],
+  "remote_artifact_availability": "Not available before upload; local JPEG fallback checked."
+}

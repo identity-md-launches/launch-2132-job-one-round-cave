@@ -1,0 +1,98 @@
+{
+  "format": "catalog-evidence/v1",
+  "delta": {
+    "method": "catalog-delta-v1",
+    "status": "compared",
+    "before_sha256": "3c4446c2dc72a73c78e79de6a6f6e46737b009b42ab92895771738ba8eec161f",
+    "after_sha256": "a6e92f561ad112d9f4f311ea4e6100d7694254c6c7a77df3605109c67d3339d9",
+    "root_changes": [
+      {
+        "package": "certifi",
+        "before": null,
+        "after": ">=2017.4.17"
+      },
+      {
+        "package": "idna",
+        "before": null,
+        "after": ">=3.10"
+      },
+      {
+        "package": "requests",
+        "before": "==2.32.5",
+        "after": "==2.25.1"
+      }
+    ],
+    "counts": {
+      "packages_added": 1,
+      "packages_removed": 0,
+      "releases_added": 3,
+      "releases_removed": 0,
+      "dependency_sets_changed": 0
+    },
+    "packages": [
+      {
+        "package": "chardet",
+        "releases_added": [
+          "4.0.0"
+        ],
+        "releases_removed": [],
+        "release_labels_changed": [],
+        "dependency_changes": []
+      },
+      {
+        "package": "idna",
+        "releases_added": [
+          "2.10"
+        ],
+        "releases_removed": [],
+        "release_labels_changed": [],
+        "dependency_changes": []
+      },
+      {
+        "package": "requests",
+        "releases_added": [
+          "2.25.1"
+        ],
+        "releases_removed": [],
+        "release_labels_changed": [],
+        "dependency_changes": []
+      }
+    ],
+    "scope": "Exact roots, release labels and dependency constraints in two finite catalogs are compared. No resolution, compatibility, registry freshness, artifact availability or publisher trust is inferred."
+  },
+  "documents": [
+    {
+      "path": "catalog-delta.md",
+      "text": "# Finite catalog comparison\nBefore normalized SHA-256: 3c4446c2dc72a73c78e79de6a6f6e46737b009b42ab92895771738ba8eec161f\nAfter normalized SHA-256: a6e92f561ad112d9f4f311ea4e6100d7694254c6c7a77df3605109c67d3339d9\nScope: supplied snapshots only; no compatibility, freshness or trust claim.\nSnapshot order is caller-selected, not inferred chronological order.\n\nRoot certifi: before null; after \">=2017.4.17\"\nRoot idna: before null; after \">=3.10\"\nRoot requests: before \"==2.32.5\"; after \"==2.25.1\"\nRelease added: chardet 4.0.0\nRelease added: idna 2.10\nRelease added: requests 2.25.1\nCounts: {\"dependency_sets_changed\": 0, \"packages_added\": 1, \"packages_removed\": 0, \"releases_added\": 3, \"releases_removed\": 0}\n",
+      "sha256": "d54e355fe8dc3ce209e4fac21e53c61fcbe8762bab4c823c0036e0bab33fa61a"
+    }
+  ],
+  "search": {
+    "format": "evidence-search-results/v1",
+    "query": "requests idna",
+    "terms": [
+      "idna",
+      "requests"
+    ],
+    "require_all": false,
+    "indexed_documents": 1,
+    "indexed_passages": 2,
+    "hits": [
+      {
+        "path": "catalog-delta.md",
+        "line_start": 9,
+        "line_end": 13,
+        "citation": "catalog-delta.md:9-13",
+        "sha256": "d54e355fe8dc3ce209e4fac21e53c61fcbe8762bab4c823c0036e0bab33fa61a",
+        "source_verified": false,
+        "score": 0.46047351,
+        "matched_terms": [
+          "idna",
+          "requests"
+        ],
+        "text": "Root requests: before \"==2.32.5\"; after \"==2.25.1\"\nRelease added: chardet 4.0.0\nRelease added: idna 2.10\nRelease added: requests 2.25.1\nCounts: {\"dependency_sets_changed\": 0, \"packages_added\": 1, \"packages_removed\": 0, \"releases_added\": 3, \"releases_removed\": 0}"
+      }
+    ]
+  },
+  "trust": "Citations bind the regenerated comparison bytes. They do not authenticate source catalogs, compatibility or factual truth."
+}
