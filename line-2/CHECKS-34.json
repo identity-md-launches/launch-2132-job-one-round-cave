@@ -1,0 +1,38 @@
+{
+  "round": 34,
+  "structuralChecks": "passed",
+  "goalByteIdentical": true,
+  "olderRecordsByteIdentical": 33,
+  "scopeCheck": "passed",
+  "stagedFiles": 0,
+  "png": {
+    "path": "artifacts/line-2/wall-v14.png",
+    "format": "PNG",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "4105098ab30a8ea1f9c662d4620dc1f103876f35d97873536699c8be33078a4a"
+  },
+  "jpeg": {
+    "path": "dist/line-2/34.jpg",
+    "format": "JPEG",
+    "size": [
+      512,
+      512
+    ],
+    "bytes": 77769
+  },
+  "changedPixels": 7238,
+  "changedPixelsOutsideNewMark": 0,
+  "tests": {
+    "storageFields": 16,
+    "stateWitness": 30,
+    "failures": 0
+  },
+  "demo": "passed; real historical ZTO/IMD pool fixture",
+  "limitations": [
+    "Root authentication and layout correctness remain external.",
+    "Required beside-record JPEG follows explicit destination despite blanket picture-location rule."
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "round": 34,
+  "ancestorSha256": "39f11eb039d51162de4a57b96f14cb80d4eea152719b6ca18c585a152cbd3fd2",
+  "generatedDraftSha256": "f5efdf38acdf2fa27b911571bd6e67bb917b285717baae327168b5f15e629625",
+  "wallSha256": "4105098ab30a8ea1f9c662d4620dc1f103876f35d97873536699c8be33078a4a",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "format": "PNG",
+  "channels": "RGB",
+  "newMarkRectangle": [
+    65,
+    375,
+    100,
+    150
+  ],
+  "changedPixels": 7238,
+  "changedPixelsOutsideRectangle": 0,
+  "method": "Built-in image edit; only generated seed-pod pigment composited onto unused left rock. All other ancestor pixels preserved exactly.",
+  "visualReview": "Inspected full finished PNG and 512-pixel JPEG. Inherited Pepe retains heavy-lidded eyes, broad mouth and two visible hands with five digits each (four fingers and one thumb). No hand was added. New mark is a worn flat red-ochre seed divided by charcoal bands with a chalk center on unused left rock. Warm rough rock, cracks, crystals, light and framing remain. No letters, numbers, captions, signatures, logos, watermarks, borders, real people or forbidden symbols observed.",
+  "unmetVisualRequirements": [],
+  "images": [
+    {
+      "path": "artifacts/line-2/wall-v14.png",
+      "format": "PNG",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "bytes": 3950737,
+      "sha256": "4105098ab30a8ea1f9c662d4620dc1f103876f35d97873536699c8be33078a4a"
+    },
+    {
+      "path": "artifacts/line-2/wall.png",
+      "format": "PNG",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "bytes": 3950737,
+      "sha256": "4105098ab30a8ea1f9c662d4620dc1f103876f35d97873536699c8be33078a4a"
+    },
+    {
+      "path": "dist/line-2/34.jpg",
+      "format": "JPEG",
+      "dimensions": [
+        512,
+        512
+      ],
+      "bytes": 77769,
+      "sha256": "517b19bb1632825effb426d3a0cfd3f396411605a0f02c252ce8dbbae3d83236"
+    }
+  ],
+  "deliveryNotes": [
+    "The explicit requirement for a JPEG beside the record is followed at dist/line-2/34.jpg, as in earlier accepted records; this conflicts with the blanket instruction forbidding pictures outside artifacts/. No other new picture is outside artifacts/.",
+    "Built-in image generation returned bytes and also reported its default service-side save location. Only returned bytes were used; no generated file outside this workspace was read. The initial installed-tool draft failed preservation review and was overwritten at the same PNG output path."
+  ],
+  "scope": "Local visual inspection and byte comparison, not independent certification."
+}

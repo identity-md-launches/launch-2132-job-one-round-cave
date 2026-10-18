@@ -1,0 +1,60 @@
+{
+  "address": "0x000000000004444c5dc75cb358380d2e3de08a90",
+  "codeHash": "0x785f1014552b7ce7d5fb7d0c970ca60edee94fd00425d7ca21609acac7ce1293",
+  "demo": "Real ZTO/IMD historical fixture at block 26212390; illustrative RPC-observed root, not an independently authenticated checkpoint.",
+  "format": "storage-fields-result/1",
+  "layoutSha256": "6d3bbc017f81f66d785f895fe1cffaa65c9ec4351f8043fb92b93e3ed331fd0a",
+  "slots": [
+    {
+      "fields": [
+        {
+          "bits": 160,
+          "name": "sqrtPriceX96",
+          "offset": 0,
+          "rawBits": "0x10675ff9d949ea2d3c11613bc41",
+          "signed": false,
+          "valueDecimal": "20794297345123442418062648917057"
+        },
+        {
+          "bits": 24,
+          "name": "tick",
+          "offset": 160,
+          "rawBits": "0x1b32f",
+          "signed": true,
+          "valueDecimal": "111407"
+        },
+        {
+          "bits": 12,
+          "name": "protocolFee0To1",
+          "offset": 184,
+          "rawBits": "0x0",
+          "signed": false,
+          "valueDecimal": "0"
+        },
+        {
+          "bits": 12,
+          "name": "protocolFee1To0",
+          "offset": 196,
+          "rawBits": "0x0",
+          "signed": false,
+          "valueDecimal": "0"
+        },
+        {
+          "bits": 24,
+          "name": "lpFee",
+          "offset": 208,
+          "rawBits": "0x30d4",
+          "signed": false,
+          "valueDecimal": "12500"
+        }
+      ],
+      "slot": "0x85763e16f60121d4266264cb693cca4d6bdb9e98ff9cc3d698d892d90342971b",
+      "storageExists": true,
+      "unusedBits": "0x0",
+      "word": "0x0000000030d400000001b32f000000000000010675ff9d949ea2d3c11613bc41"
+    }
+  ],
+  "stateRoot": "0x70c13580735123b57c0a9a24692875f4ef366b04c69d92af9f539561e626d512",
+  "trust": "Raw words are proven against the supplied root. Authenticate the root independently. Field names, offsets, signedness and meaning are caller assumptions, not facts established by a proof. No price, balance, consensus, finality or current-state claim is made.",
+  "verified": true
+}

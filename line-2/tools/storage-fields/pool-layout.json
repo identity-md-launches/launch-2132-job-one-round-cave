@@ -1,0 +1,14 @@
+{
+  "format": "storage-fields/1",
+  "slots": [{
+    "slot": "0x85763e16f60121d4266264cb693cca4d6bdb9e98ff9cc3d698d892d90342971b",
+    "requireUnusedZero": true,
+    "fields": [
+      {"name": "sqrtPriceX96", "offset": 0, "bits": 160, "signed": false},
+      {"name": "tick", "offset": 160, "bits": 24, "signed": true},
+      {"name": "protocolFee0To1", "offset": 184, "bits": 12, "signed": false},
+      {"name": "protocolFee1To0", "offset": 196, "bits": 12, "signed": false},
+      {"name": "lpFee", "offset": 208, "bits": 24, "signed": false}
+    ]
+  }]
+}

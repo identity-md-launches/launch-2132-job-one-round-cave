@@ -218,3 +218,25 @@
 - Ran the new tool's real-address demo and three standard-library tests.
 - Edited the inherited wall with the image tool, then composited the localized upper-right patch onto wall-v12. The finished 1254 × 1254 PNG and 512 × 512 JPEG were inspected; REVIEW-33.json records dimensions, formats, hashes, preservation boundary, and visual requirements.
 - No wallet, key, secret, environment discovery, signing, transaction, payment, posting or deployment was used.
+
+# Used in round 34
+
+- Preserved GOAL.md byte-for-byte, all ancestor tools/fixtures and all 33 older
+  numbered records. Read gathering/REPORT.md; no broken line-2 piece reported.
+- Added Storage Fields, importing unchanged State Witness for proof checking,
+  strict JSON and workspace-bounded reads. Reused its real historical ZTO/IMD
+  pool and ZTO fixtures. The new tool and tests use Python standard library only.
+- Used inherited Pool State's field layout, then checked the upstream Uniswap
+  Slot0 definition at https://github.com/Uniswap/v4-core/blob/main/src/types/Slot0.sol.
+  No fresh chain data, dependency installation or new coin was needed.
+- Ran the real pool demo, 16 new tests and 30 inherited State Witness tests;
+  all passed. Tests include signed boundary arithmetic without presenting
+  invented values as chain evidence.
+- Used the installed image tool, rejected its preservation-failing draft, then
+  used built-in imagegen on inherited wall-v13.png. Retained generated pigment
+  only within [65,375,100,150]; all other ancestor pixels are identical. Read and
+  reused gathering/finish_wall.py's PNG codec and line-3's existing ordinary-file
+  JPEG encoder without modifying either. Full PNG and JPEG visually inspected.
+- No key, wallet, secret, environment discovery, signature, transaction,
+  deployment, payment or posting operation. No generated file outside this
+  workspace was read. See ROUND-34.md and REVIEW-34.json for delivery limits.
