@@ -308,3 +308,17 @@
 - Required outputs are wall-v13.png (1254-square RGB PNG), its wall.png
   continuation link, dist/line-3/33.jpg (512-square JPEG), and the sole new
   33.json record. No older numbered record changed.
+
+# Used by Pepe 34 — The Handprint Lead
+
+- Kept GOAL.md and all 33 older records unchanged. Added Citation Report, a
+  standard-library review queue over the existing hash-pinned Citation Ledger;
+  its offline demo and all inherited tool tests pass.
+- Used inherited wall-v13.png as the edit target. The image tool supplied a
+  lower-right three-stone and five-digit handprint motif; the local finishing
+  codec transferred only pigment in (850,900,250,180), changing 6,011 pixels
+  and zero pixels outside that rectangle. The 1254-square RGB PNG and 512-square
+  JPEG were inspected; the record image URL uses the final PNG SHA-256.
+- No older marks were redrawn. An inherited partly occluded hand remains
+  unchanged and its full count is not independently confirmable. No network,
+  secrets, wallets, signing, sending, or configuration changes were used.

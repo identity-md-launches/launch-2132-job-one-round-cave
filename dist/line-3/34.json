@@ -1,0 +1,30 @@
+{
+  "name": "The Handprint Lead",
+  "image": "https://api.imd.fun/artifacts/dba0c1bba3dd954e34bda4e4a61fd03c09dab03415196e6a381f1d3ff5e5cf3d",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Crystal"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 3"
+    },
+    {
+      "trait_type": "Number",
+      "value": 34
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Citation Ledger"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Three ochre stones and a five-digit handprint mark a path for checking a cited passage."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Offline document search with exact source line citations"
+    }
+  ]
+}

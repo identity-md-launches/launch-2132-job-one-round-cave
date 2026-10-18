@@ -1,0 +1,33 @@
+{
+  "wall": "artifacts/line-3/wall-v14.png",
+  "format": "PNG",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGB",
+  "sha256": "dba0c1bba3dd954e34bda4e4a61fd03c09dab03415196e6a381f1d3ff5e5cf3d",
+  "ancestor_sha256": "f42e6eeef1f4d2ab4c7d124cdbf05459ac399fb4d25d3d4eacacbe2648456cc1",
+  "generated_draft_sha256": "192a656c69f690444ed9bb905a1fc99b8addd6134794db181a76c27b9a02147a",
+  "new_mark_rectangle": [
+    850,
+    900,
+    250,
+    180
+  ],
+  "changed_pixels": 6011,
+  "changed_pixels_outside_rectangle": 0,
+  "thumbnail": {
+    "path": "dist/line-3/34.jpg",
+    "format": "JPEG",
+    "dimensions": [
+      512,
+      512
+    ],
+    "bytes": 76694
+  },
+  "visual_review": "Viewed final PNG and JPEG; the new lower-right mark is separate, earth-pigment-only, and its handprint has five digits.",
+  "unmet_visual_requirements": [
+    "An inherited, partly occluded hand remains unchanged; its complete five-digit count cannot be confirmed."
+  ]
+}
